@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "PideLib"
+version = "0.1.0"
+description = "A personal library for frequently used functions."
+readme = "README.md"
+authors = [{ name = "Ghazanfer Ali", email = "alighazanfer59@gmail.com" }]
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+dependencies = [
+    "plotly==5.24.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/alighazanfer59/PideLib"
+Repository = "https://github.com/alighazanfer59/PideLib"

@@ -1,0 +1,29 @@
+
+---
+
+## **2. `.gitignore` (Avoid Committing Unnecessary Files)**  
+This file prevents temporary or sensitive files from being uploaded to GitHub.
+
+### 📄 `.gitignore`
+```plaintext
+# Ignore virtual environments
+venv/
+.env
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build files
+build/
+dist/
+*.egg-info
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
