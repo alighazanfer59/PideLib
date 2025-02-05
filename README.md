@@ -29,6 +29,7 @@ import plotly.graph_objects as go
 from pide_lib import plotly_figs
 
 #### Example DataFrame
+```bash
 df = pd.DataFrame({
     'timestamp': pd.date_range(start="2024-01-01", periods=100, freq='D'),
     'LSR_top': range(100),
@@ -39,6 +40,6 @@ df.set_index('timestamp', inplace=True)
 #### Plot lines
 fig = plotly_figs.draw_line_traces(df, columns=['LSR_top', 'LSR_pos'], colors=['blue', 'red'], separate_y=True)
 fig.show()
-
+```
 
 
