@@ -1,3 +1,4 @@
-# __init__.py
+# __init__.py in pide_lib
 
 from .plotly_figs import draw_line_traces
+
