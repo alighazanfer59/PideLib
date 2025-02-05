@@ -24,12 +24,14 @@ cd PideLib
 pip install -e .
 ```
 ### Example Usage:
+
+```bash
 import pandas as pd
 import plotly.graph_objects as go
 from pide_lib import plotly_figs
 
 #### Example DataFrame
-```bash
+
 df = pd.DataFrame({
     'timestamp': pd.date_range(start="2024-01-01", periods=100, freq='D'),
     'LSR_top': range(100),
