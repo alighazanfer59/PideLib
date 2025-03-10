@@ -2,8 +2,8 @@ from binance.enums import HistoricalKlinesType
 from binance.client import Client
 from threading import Thread
 import ccxt
-import streamlit as st
-import streamlit.components.v1 as components
+# import streamlit as st
+# import streamlit.components.v1 as components
 import plotly.graph_objects as go
 import pandas as pd
 import numpy as np
