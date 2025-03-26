@@ -44,4 +44,14 @@ fig = plotly_figs.draw_line_traces(df, columns=['LSR_top', 'LSR_pos'], colors=['
 fig.show()
 ```
 
+### Example Usage2:
+
+```bash
+import pandas as pd
+from pide_lib import getData
+
+#### Get Data from binance
+df = getData("BTCUSDT", "1h", "2021-01-01", "2025-12-31", "futures")
+```
+
 
